@@ -273,7 +273,7 @@ body{
 
     .main-section{
         display: block;
-        margin-top: ;
+        
     }
     .main-button-container{
         width: 210px;
@@ -304,9 +304,6 @@ body{
      
    }
 
-    footer{
-        display: block;
-    }
     /* -----footer media quries---------- */
     .footer-container{
         height: 700px;
@@ -315,14 +312,76 @@ body{
         flex-direction: column;
         margin:25px auto;
     }
-    .footer-link>a{
-        
-    }
     #footer-icon{
         flex-direction: column;
         margin: 0 auto;
     }
 }
 
+/* ---------- tab or ipad media quaries---------- */
 
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    body{
+        font-size: 80%;
+    }
+    .banner-container{
+        width: 90%;
+        height: 338px;
+        margin: 50px auto;
+    }
+    .banner-discription-container{
+        margin:0 83px;
+    }
+    .banner-header{
+        font-size: 28px;
+        width: 100%;
+    }
+    .banner-details{
+        width: 258px;
+        height: 48px;
+        margin: 0 auto;
+        line-height: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: start;
+    }
 
+    /*----------- main media quary for tablet ---------*/
+    main{
+        display: block;
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .main-button-container{
+        display: flex;
+        flex-direction:;
+        width: 210px;
+        height: 170px;
+        background-color: #FFFFFF;
+        margin:30px auto;
+        justify-content: space-evenly;
+    }
+    .button-container{
+        display: flex;
+        flex-direction: row;
+        width: 230px;
+        height: 150px;
+    }
+    .button{
+        border: 1px solid #333;
+        width: 230px;
+        height: 48px;
+    }
+    .Blogs-section{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #last-item{
+        display: none;
+    }
+    #footer-icon{
+    margin: 50px 150px;
+    }
+}
