@@ -218,3 +218,111 @@ body{
     width: 50%;
     margin-left: 258px;
 }
+
+/* -----------------media quaries sections--------------- */
+@media only screen and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-size: 70%;
+    }
+
+    /*------------header banner media quary----------- */
+    .banner-container{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        margin:0px auto;
+        border-radius: 0;
+    }
+    .banner-discription-container{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .banner-header{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 70px;
+        padding: 0 50px;
+    }
+    .banner-details{
+        width: 258px;
+        height: 48px;
+        margin: 8px auto;
+        line-height: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .banner-link{
+        text-align: center;
+        margin: 50px auto ;
+    }
+    .banner-image{
+        width: 69%;
+        margin: 0 0 0 60px;
+    }
+    /*------------- main section media quary--------------- */
+    main{
+        display: block;
+    }
+
+    .main-section{
+        display: block;
+        margin-top: ;
+    }
+    .main-button-container{
+        width: 210px;
+        height: 170px;
+        background-color: #FFFFFF;
+        margin:30px auto;
+    }
+    .button{
+        border: 1px solid #333;
+    }
+    /*--------------- main blogs section media quary---------- */
+    .Blogs-section{
+     grid-template-columns: repeat(1,1fr);
+     margin-top: 50px;
+   }
+   .blog-img{
+     padding: 28px;
+     margin: 0 27px;
+   }
+   .bolg-discription{
+     padding: 10px;
+     text-align: center;
+   }
+   .blog-comments{
+     margin: 10px auto;
+     padding:0 30px;
+     justify-content: space-around;
+     
+   }
+
+    footer{
+        display: block;
+    }
+    /* -----footer media quries---------- */
+    .footer-container{
+        height: 700px;
+    }
+    .footer-link{
+        flex-direction: column;
+        margin:25px auto;
+    }
+    .footer-link>a{
+        
+    }
+    #footer-icon{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+
+
