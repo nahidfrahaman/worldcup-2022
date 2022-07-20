@@ -22,7 +22,7 @@ body{
     border-radius: 30px;
     
 }
-#mydiv{
+#animation-div{
     animation: colorchange 2s ease-out infinite ;
 }
 
