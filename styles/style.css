@@ -43,38 +43,12 @@ body{
 }
 .banner-link>a:hover{
     color: #ccc;
+    background-color: #333;
 }
 .banner-image{
     width: 50%;
     margin-top: 82px;
 }
-
-/* .banner-discription{
-    padding-left: 120px;
-    margin-top: 111px;
-}
-.banner-header{
-    font-size: 55px;
-    font-weight: 700;
-    
-}
-.banner-details {
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 26px;
-   
-}
-.banner-link{
-   margin-top: 30px;
-}
-.banner-link>a{
-    text-decoration: none;
-    background-color: #DD0000;
-    color: #FFFFFF;
-    padding: 16px 25px;
-    border-radius: 5px; */
-
 
 /* -----------main section styles-------------- */
 .main-section{
@@ -112,12 +86,19 @@ body{
     text-decoration: none;
     color: black;
 }
-#btn{
+.button>a:hover{
+    color:#ccc;
+    
+}
+#button-upcoming{
     background-color: #DD0000;
     
 }
-#btn>a{
+#button-upcoming>a{
     color: white;
+}
+#button-upcoming>a:hover{
+    color: #ccc;
 }
 /* -------Blogs section styles---------- */
 
@@ -158,6 +139,23 @@ body{
 }
 .blog-title>h2{
     font-size: 50px;
+}
+/* css for match.html blog sec-------- */
+.country-image{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding: 27px;
+}
+.country-name-shedule{
+    margin-left: 40px;
+}
+.country-name{
+    font-weight: 600;
+    font-size: 24px;
+}
+.time{
+    margin: 10px 25px
 }
 /* ------------tablet styles-------------------- */
 
