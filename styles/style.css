@@ -52,13 +52,15 @@ body{
 /* -----------main section styles-------------- */
 .main-section{
     display: flex;
+    width: 95%;
+    margin: 0 auto;
 }
 .main-button-container{
     width: 430px;
     height: 320px;
     background-color: #161616;
     border-radius: 5px;
-    margin-left: 74px;
+    margin-left: 30px;
 }
 .button-container{
     width: 95%;
@@ -150,3 +152,44 @@ body{
 }
 
 
+/* -------------footer styles----------------------- */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+    margin-top: 100px;
+
+}
+.footer-discripton{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+#horizontal-rule{
+    margin-top:40px;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image:  linear-gradient(to right, #ccc, #333, #ccc);
+    
+}
+.footer-link{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.footer-link >a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .50);
+    font-size: 16px;
+}
+#footer-icon{
+    width: 50%;
+    margin-left: 258px;
+}
