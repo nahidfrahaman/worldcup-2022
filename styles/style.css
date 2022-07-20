@@ -23,7 +23,7 @@ body{
     
 }
 #mydiv{
-    animation: colorchange 2s linear infinite ;
+    animation: colorchange 2s ease-out infinite ;
 }
 
 @keyframes colorchange{
