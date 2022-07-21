@@ -36,7 +36,6 @@ body{
 }
 .banner-discription-container{
     width: 50%;
-    padding: 10px;
     margin-left: 110px;
 }
 .banner-header{
@@ -60,7 +59,7 @@ body{
 }
 .banner-image{
     width: 50%;
-    margin-top: 82px;
+    margin-top: 72px;
 }
 
 /* -----------main section styles-------------- */
@@ -161,7 +160,7 @@ body{
     padding: 27px;
 }
 .country-name-shedule{
-    margin-left: 40px;
+    margin-left: 22px;
 }
 .country-name{
     font-weight: 600;
@@ -253,6 +252,7 @@ body{
     .banner-discription-container{
         width: 100%;
         margin: 0 auto;
+        padding: 0;
         
     }
     .banner-header{
